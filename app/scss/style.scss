@@ -1,0 +1,59 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(240, 167, 11);
+    color: rgb(15, 15, 15);
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background: rgb(13, 226, 31);
+}
+
+.photo__items {
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    transition: all .3ms;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    item {
+        background: #000;
+        &:hover {
+            background-color: red;
+        }
+    }
+}
+
+h1 {
+    color: #fff;
+    line-height: 20px;
+    position: absolute;
+    top: 221px;
+    left: 545px;
+    padding: 30px;
+    background: rgb(247, 11, 11);
+    border-radius: 15px;
+}
+
+.test {
+    margin: 20px;
+}
